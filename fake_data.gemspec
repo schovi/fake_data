@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["schovanec@schovi.cz"]
 
   spec.summary       = %q{Universal random data generator}
-  spec.description   = %q{Universal random data generator. Supports String, Array, Hash, repeat and maybe on part of structure}
+  spec.description   = %q{Universal random data generator. Supports String, Array, Hash, repeat and conditional parts}
   spec.homepage      = "https://github.com/schovi/fake_data"
   spec.license       = "MIT"
 
@@ -38,5 +38,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'terminal-notifier-guard', '1.7.0'
   spec.add_development_dependency 'pry', '0.10.3'
 
-  spec.add_runtime_dependency 'faker', '1.6.3'
+  spec.add_runtime_dependency 'faker'
 end

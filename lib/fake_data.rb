@@ -2,6 +2,7 @@ require "faker"
 require "fake_data/version"
 require "fake_data/structure"
 require "fake_data/method"
+require "faker/preset"
 
 # This is required. Sometimes Faker throws error on missing locale.
 I18n.reload!
